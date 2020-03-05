@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border = "1" width="800" height = "500" cellspacing="0" cellpadding="1" align="center">
+        <tr>
+            <td colspan="4" bgcolor="#ccc" align="center">HEADER</td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">MENU</td>
+        </tr>
+        <tr>
+            <td rowspan="8" width ="150" align="center" valign="top">LEFT SIDE</td>
+            <td>
+                <span style="float: right;">Họ và tên</span>
+            </td>
+            <td>
+                <input type="text" name="name">
+            </td>
+            <td rowspan="8"width ="150" align="center" valign="top">RIGHT SIDE</td>
+        </tr>
+        <tr>
+            <td>
+                <span style="float: right;">Email</span>
+            </td>
+            <td>
+                <input type="email" name="name" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span style="float: right;">Địa chỉ</span>
+            </td>
+            <td>
+                <input type="text" name="name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span style="float: right;">Số điện thoại</span>
+            </td>
+            <td>
+                <input type="number" name="" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span style="float: right;">Giới tính</span>
+            </td>
+            <td>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span style="float: right;">Sở thích</span>
+            </td>
+            <td>
+                <select name="" id="">
+                    <option value="1">Đá bóng</option>
+                    <option value="2">Đá cầu</option>
+                    <option value="3">Đọc sách</option>
+                    <option value="4">Xem phim</option>
+                    <option value="5">Đi du lịch</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span style="float: right;">Thông tin khác</span>
+            </td>
+            <td>
+                <textarea name="" id="" cols="30" rows="2"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Đăng kí">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
